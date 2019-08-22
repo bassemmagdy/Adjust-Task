@@ -54,7 +54,11 @@ python manage.py runserver
 http://127.0.0.1:8000/api/get_data/
 ```
 
-- After that start using the api with whatever paramas to get your data back on your side:
+- Next start using the api with whatever paramas to get your data back on your side:
+
+```bash
+http://127.0.0.1:8000/api/performance/
+```
 
 
 ## The available API routes are:
