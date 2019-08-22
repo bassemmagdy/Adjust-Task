@@ -15,7 +15,7 @@ git clone https://github.com/bassemmagdy/Adjust.git
 - Then cd to the directory
 
 ```bash
-cd Adjust
+cd Adjust-task
 ```
 
 - Rename .env.Example and modify it according to your database configurations
