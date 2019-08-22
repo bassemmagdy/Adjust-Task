@@ -27,7 +27,7 @@ virtualenv --python=python3 task-env
 source task-env/bin/activate
 ```
 
-- Next step if you are using a macosx like me you will need to create database using psql commandline:
+- Next step you will need to create database using psql commandline:
 
 ```bash
 psql postgres
