@@ -18,7 +18,7 @@ git clone https://github.com/bassemmagdy/Adjust.git
 cd Adjust-task
 ```
 
-- Rename .env.Example and modify it according to your database configurations
+- Change database configurate to match yours in Settings.py (Database secion).
 
 - Run the next commands to initialize and start your venv
 
