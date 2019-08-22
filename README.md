@@ -9,13 +9,13 @@ This is a task done according to specifications sent by adjust.com using python3
 - Second clone the project any where to your pc
 
 ```bash
-git clone https://github.com/bassemmagdy/Adjust.git
+git clone https://github.com/bassemmagdy/Adjust-Task.git
 ```
 
 - Then cd to the directory
 
 ```bash
-cd Adjust-task
+cd Adjust-Task
 ```
 
 - Change database configurate to match yours in Settings.py (Database secion).
