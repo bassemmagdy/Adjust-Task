@@ -27,10 +27,18 @@ virtualenv --python=python3 task-env
 source task-env/bin/activate
 ```
 
-- Next step after configuring your virtualenv and your db settings, you'll have to install requirements and migrate your database to start playing around with the API.
+- Next step if you are using a macosx like me you will need to create database using psql commandline:
+
+```bash
+psql postgres
+CREATE DATABASE adjust;
+```
+
+- Next step after configuring your virtualenv and your db, you'll have to install requirements and migrate your database to start playing around with the API.
 
 ```bash
 pip install -r requirements.txt
+python manage.py makemigrations
 python manage.py migrate
 ```
 
