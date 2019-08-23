@@ -94,6 +94,23 @@ http://127.0.0.1:8000/api/performance/?date=2017-06-01&grouping_by=os&order_by_r
 http://127.0.0.1:8000/api/performance/?country=ca&grouping_by=channel, cpi&order_by_cpi=desc
 ```
 
-## Postman Collection
+## Postman
 
+- All Api tuning parameters are inside the below collection:
+
+```bash
 - https://www.getpostman.com/collections/81c60939078c82d5f819
+```
+
+
+## For more Elaboration:
+
+- For date parameter you pass an exact date in the format 'YYYY-MM-DD' to get something in that specific day, for start_date and end_date parameters 
+you pass dates in the exact same format to get data for a certain period.
+
+- for os, country, channel parameters pass os_name, country_name or channel_name to filter by any.
+
+- For order by filters you either pass 'asc' or 'desc' for sorting.
+
+- For group_by you can user parameter {grouping_by} and pass any of these columns headers => ['date', 'channel', 'country', 'os', 'cpi'] seperated by comma.
+
